@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -23,7 +27,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   max-width: 900px;
   padding: 20px 30px;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.65);
   box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -36,6 +40,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .fa-quote-left {
+  margin-right: 1rem;
   font-size: 4rem;
 }
 
@@ -43,6 +48,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   margin-top: 15px;
   font-size: 2rem;
   font-weight: 400;
+  margin-bottom: 1rem;
   font-style: italic;
 }
 
